@@ -4,13 +4,15 @@ import { RegisterComponent } from './register/register.component';
 import { CategoryComponent } from './category/category.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { LoginComponent } from './login/login.component';
+import { QuestionsComponent } from './category/questions/questions.component';
 
 const routes: Routes = [
   { path: 'tabs', loadChildren: './tabs/tabs.module#TabsPageModule' },
   { path: '', component: WelcomeComponent },
   { path: 'login', component: LoginComponent },
   { path: 'registration', component: RegisterComponent },
-  { path: 'category', component: CategoryComponent }
+  { path: 'category', component: CategoryComponent },
+  { path: 'category/question', component: QuestionsComponent }
 ];
 @NgModule({
   imports: [

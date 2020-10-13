@@ -10,9 +10,10 @@ import { RegisterComponent } from './register/register.component';
 import { CategoryComponent } from './category/category.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { LoginComponent } from './login/login.component';
+import { QuestionsComponent } from './category/questions/questions.component';
 
 @NgModule({
-  declarations: [AppComponent, LoginComponent, RegisterComponent, CategoryComponent, WelcomeComponent],
+  declarations: [AppComponent, LoginComponent, RegisterComponent, CategoryComponent, WelcomeComponent, QuestionsComponent],
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [
